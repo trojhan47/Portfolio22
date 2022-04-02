@@ -22,6 +22,8 @@ export default {
             console.log('SUCCESS!', result.text);
         }, (error) => {
             console.log('FAILED...', error.text);
+
+            
         });
     }
   }
