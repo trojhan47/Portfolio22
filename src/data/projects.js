@@ -4,40 +4,26 @@
 const projects = [
 	{
 		id: 1,
-		title: 'Google Health Platform',
+		title: 'Maverick Digital Store',
 		category: 'Web Application',
 		img: require('@/assets/images/web-project-2.jpg'),
+		link:'https://maverickdigital.netlify.app/'
 	},
 	{
 		id: 2,
-		title: 'Phoenix Digital Agency',
-		category: 'Mobile Application',
+		title: 'Nel',
+		category: 'Web Application',
 		img: require('@/assets/images/mobile-project-2.jpg'),
+		link:'http://Nel2.herokuapp.com'
 	},
 	{
 		id: 3,
-		title: 'Project Management UI',
-		category: 'UI/UX Design',
-		img: require('@/assets/images/ui-project-1.jpg'),
-	},
-	{
-		id: 4,
-		title: 'Cloud Storage Platform',
-		category: 'UI/UX Design',
-		img: require('@/assets/images/ui-project-2.jpg'),
-	},
-	{
-		id: 5,
-		title: 'React Social App',
-		category: 'Mobile Application',
-		img: require('@/assets/images/mobile-project-1.jpg'),
-	},
-	{
-		id: 6,
-		title: 'Apple Design System',
+		title: 'Autonics',
 		category: 'Web Application',
-		img: require('@/assets/images/web-project-1.jpg'),
+		img: require('@/assets/images/ui-project-1.jpg'),
+		link:''
 	},
+	
 ];
 
 export default projects;

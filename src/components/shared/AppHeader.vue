@@ -23,21 +23,21 @@ export default {
 					value: 'web',
 					name: 'Web Application',
 				},
-				{
-					id: 2,
-					value: 'mobile',
-					name: 'Mobile Application',
-				},
-				{
-					id: 3,
-					value: 'ui-ux',
-					name: 'UI/UX Design',
-				},
-				{
-					id: 4,
-					value: 'branding',
-					name: 'Branding & Anim',
-				},
+				// {
+				// 	id: 2,
+				// 	value: 'mobile',
+				// 	name: 'Mobile Application',
+				// },
+				// {
+				// 	id: 3,
+				// 	value: 'ui-ux',
+				// 	name: 'UI/UX Design',
+				// },
+				// {
+				// 	id: 4,
+				// 	value: 'branding',
+				// 	name: 'Branding & Anim',
+				// },
 			],
 		};
 	},
@@ -87,13 +87,13 @@ export default {
 					<router-link to="/"
 						><img
 							v-if="theme === 'light'"
-							src="@/assets/images/logo-dark.svg"
+							src="@/assets/images/1.png"
 							class="w-36"
 							alt="Dark Logo"
 						/>
 						<img
 							v-else
-							src="@/assets/images/logo-light.svg"
+							src="@/assets/images/3.png"
 							class="w-36"
 							alt="Light Logo"
 						/>

@@ -1,6 +1,13 @@
 <script>
 import Button from '../reusable/Button.vue';
-export default { components: { Button } };
+//import emailjs from '@emailjs/browser';
+//import axios from "axios"
+//import NotificationContainer from "./NotificationContainer.vue";
+
+export default { 
+	components: { Button } ,
+	
+};
 </script>
 
 <template>
@@ -90,6 +97,7 @@ export default { components: { Button } };
 			</form>
 		</div>
 	</div>
+	
 </template>
 
 <style lang="scss" scoped></style>

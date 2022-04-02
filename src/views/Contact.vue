@@ -2,28 +2,30 @@
 import feather from 'feather-icons';
 import ContactForm from '@/components/contact/ContactForm.vue';
 import ContactDetails from '@/components/contact/ContactDetails.vue';
+// import Email from '@/components/contact/Email.vue';
 
 export default {
 	components: {
 		ContactForm,
 		ContactDetails,
+		// Email.vue,
 	},
 	data: () => {
 		return {
 			contacts: [
 				{
 					id: 1,
-					name: 'Your Address, Your City, Your Country',
+					name: 'Innonson Estate, Mabushi, Abuja',
 					icon: 'map-pin',
 				},
 				{
 					id: 2,
-					name: 'email@domain.com',
+					name: 'damilolabells@gmail.com',
 					icon: 'mail',
 				},
 				{
 					id: 3,
-					name: '555 8888 888',
+					name: '+234 706 235 4189',
 					icon: 'phone',
 				},
 			],
@@ -48,5 +50,9 @@ export default {
 
 		<!-- Contact details -->
 		<ContactDetails :contacts="contacts" />
+
+		
 	</div>
+
+	<!-- <Email /> -->
 </template>

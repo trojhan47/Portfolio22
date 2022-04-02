@@ -106,25 +106,25 @@ export default {
 						id: 1,
 						name: 'Twitter',
 						icon: 'twitter',
-						url: 'https://twitter.com/realstoman',
+						url: 'https://twitter.com/dammy_crae',
 					},
 					{
 						id: 2,
 						name: 'Instagram',
 						icon: 'instagram',
-						url: 'https://instagram.com/realstoman',
+						url: 'https://instagram.com/dammy_crae',
 					},
 					{
 						id: 3,
 						name: 'Facebook',
 						icon: 'facebook',
-						url: 'https://facebook.com/',
+						url: 'https://facebook.com/damilola.bells.9',
 					},
 					{
 						id: 4,
 						name: 'LinkedIn',
 						icon: 'linkedin',
-						url: 'https://linkedin.com/',
+						url: 'https://linkedin.com/in/damilola1732',
 					},
 					{
 						id: 5,
@@ -134,31 +134,31 @@ export default {
 					},
 				],
 			},
-			relatedProject: {
-				relatedProjectsHeading: 'Related Projects',
-				relatedProjects: [
-					{
-						id: 1,
-						title: 'Mobile UI',
-						img: require('@/assets/images/mobile-project-1.jpg'),
-					},
-					{
-						id: 2,
-						title: 'Web Application',
-						img: require('@/assets/images/web-project-1.jpg'),
-					},
-					{
-						id: 3,
-						title: 'UI Design',
-						img: require('@/assets/images/ui-project-2.jpg'),
-					},
-					{
-						id: 4,
-						title: 'Kabul Mobile App UI',
-						img: require('@/assets/images/mobile-project-2.jpg'),
-					},
-				],
-			},
+			// relatedProject: {
+			// 	relatedProjectsHeading: 'Related Projects',
+			// 	relatedProjects: [
+			// 		{
+			// 			id: 1,
+			// 			title: 'Mobile UI',
+			// 			img: require('@/assets/images/mobile-project-1.jpg'),
+			// 		},
+			// 		{
+			// 			id: 2,
+			// 			title: 'Web Application',
+			// 			img: require('@/assets/images/web-project-1.jpg'),
+			// 		},
+			// 		{
+			// 			id: 3,
+			// 			title: 'UI Design',
+			// 			img: require('@/assets/images/ui-project-2.jpg'),
+			// 		},
+			// 		{
+			// 			id: 4,
+			// 			title: 'Kabul Mobile App UI',
+			// 			img: require('@/assets/images/mobile-project-2.jpg'),
+			// 		},
+			// 	],
+			// },
 		};
 	},
 	mounted() {
