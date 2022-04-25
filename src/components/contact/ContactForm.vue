@@ -1,13 +1,38 @@
 <script>
 import Button from '../reusable/Button.vue';
 //import emailjs from '@emailjs/browser';
-//import axios from "axios"
+import axios from "axios"
 //import NotificationContainer from "./NotificationContainer.vue";
 
 export default { 
 	components: { Button } ,
-	
+	name: "form",	
+  data() {
+ return { form: {
+ name: "",
+ email: "",
+ subject: "",
+ message: "",
+ }
+ };
+
+ 
+ },
+ methods: {
+ async hire() {
+
+ console.log(this.form)
+ await axios.post("https://potmail.herokuapp.com/mail", {
+ name: this.form.name,
+ email: this.form.email,
+ subject: this.form.subject,
+ message: this.form.message,
+ });
+ },
+ 
+ },
 };
+
 </script>
 
 <template>
@@ -20,7 +45,7 @@ export default {
 			>
 				Contact Form
 			</p>
-			<form action="#" class="font-general-regular space-y-7">
+			<form @submit.prevent="hire" class="font-general-regular space-y-7">
 				<div>
 					<label
 						class="block text-lg text-primary-dark dark:text-primary-light mb-2"
@@ -33,6 +58,7 @@ export default {
 						name="name"
 						type="text"
 						required=""
+						v-model="form.name"
 						placeholder="Your Name"
 						aria-label="Name"
 					/>
@@ -49,6 +75,7 @@ export default {
 						name="email"
 						type="text"
 						required=""
+						v-model="form.email"
 						placeholder="Your Email"
 						aria-label="Email"
 					/>
@@ -65,6 +92,7 @@ export default {
 						name="subject"
 						type="text"
 						required=""
+						v-model="form.subject"
 						placeholder="Subject"
 						aria-label="Subject"
 					/>
@@ -80,6 +108,7 @@ export default {
 						class="w-full px-5 py-2 border border-gray-300 dark:border-primary-dark border-opacity-50 text-primary-dark dark:text-secondary-light bg-ternary-light dark:bg-ternary-dark rounded-md shadow-sm text-md"
 						id="message"
 						name="message"
+						v-model="form.message"
 						cols="14"
 						rows="6"
 						aria-label="Message"

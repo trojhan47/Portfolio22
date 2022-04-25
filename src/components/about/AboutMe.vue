@@ -6,12 +6,63 @@ export default {
 				{
 					id: 1,
 					bio:
-						'I am a motivated Software Developer with a background in creating and implementing Software solutions to enhance Business productivity. I am seeking to use my proven skills in Data Structures, Effective communication and Project Management to meet business needs and provide quality services.',
+						'I am a results driven and motivated software developer/ IT administrator, Solution focused, with strong knowledge and understanding of system administrations, Data Structures, Algorithm, networking, hardware and software skills, including installation, configuration, maintenance, management, troubleshooting, and support service with good experience in improving software performance, updating existing software and developing new software functionalities.',
 				},
 				{
 					id: 2,
 					bio:
-						'I am a graduate of Petroleum Engineering 👨🏽‍🎓  university of Lagos, I am an alumni Fellow at TIIDELab, a software development initiative in Abuja as a Junior Front-end Developer ☺, and a current fellow of ALX cohort 5. ',
+						'  I am resourceful and hardworking with determination and willingness to adapt to new situations. Easily identify and resolve technical issues. Proven ability to identify deficiencies and potential opportunities, and develop innovative solutions for increasing reliability and improving productivity. Strong interpersonal skills built through ' + 
+						'effective communication and presentation capabilities. ' +
+						' I am skillful in : '
+						
+				},
+				{
+					id: 3,
+					bio:
+						'Html & CSS '
+						
+				},
+				{
+					id: 4,
+					bio:
+						'Materialize'
+						
+				},
+				{
+					id: 5,
+					bio:
+						'Javascript'
+						
+				},
+				{
+					id: 6,
+					bio:
+						'NodeJs'
+						
+				},
+				{
+					id: 7,
+					bio:
+						'ExpressJs'
+						
+				},
+				{
+					id: 8,
+					bio:
+						'Wordpress'
+						
+				},
+				{
+					id: 9,
+					bio:
+						'MongoDB'
+						
+				},
+				{
+					id: 10,
+					bio:
+						'Server Configuration'
+						
 				},
 			],
 		};
@@ -24,9 +75,9 @@ export default {
 		<!-- About profile image -->
 		<div class="w-full sm:w-1/4 mb-7 sm:mb-0">
 			<img
-				src="@/assets/images/profile.jpeg"
-				class="rounded-xl w-96"
-				alt=""
+				src="@/assets/images/profile/1.png"
+				class="rounded-xl  w-96"
+				alt="Oyetunji Atilade"
 			/>
 		</div>
 

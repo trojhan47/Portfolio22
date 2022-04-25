@@ -1,21 +1,4 @@
-<script>
-import feather from 'feather-icons';
-import Button from './reusable/Button.vue';
-export default {
-	props: ['showModal', 'modal', 'categories'],
-	components: { Button },
-	data() {
-		return {};
-	},
-	mounted() {
-		feather.replace();
-	},
-	updated() {
-		feather.replace();
-	},
-	methods: {},
-};
-</script>
+
 
 <template>
 	<transition name="fade">
@@ -54,7 +37,8 @@ export default {
 								</button>
 							</div>
 							<div class="modal-body p-5 w-full h-full">
-								<form class="max-w-xl m-4 text-left">
+								<form  @submit.prevent="hire"
+									class="max-w-xl m-4 text-left">
 									<div class="mt-0">
 										<input
 											class="w-full px-5 py-2 border-1 border-gray-200 dark:border-secondary-dark rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
@@ -62,6 +46,7 @@ export default {
 											name="name"
 											type="text"
 											required=""
+											v-model="form.name"
 											placeholder="Name"
 											aria-label="Name"
 										/>
@@ -73,6 +58,7 @@ export default {
 											name="email"
 											type="text"
 											required=""
+											v-model="form.email"
 											placeholder="Email"
 											aria-label="Email"
 										/>
@@ -98,8 +84,9 @@ export default {
 									<div class="mt-6">
 										<textarea
 											class="w-full px-5 py-2 border-1 border-gray-200 dark:border-secondary-dark rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
-											id="message"
-											name="message"
+											id="project"
+											name="project"
+											v-model="form.project"
 											cols="14"
 											rows="6"
 											aria-label="Details"
@@ -137,7 +124,7 @@ export default {
 									focus:ring-1 focus:ring-indigo-900 duration-500"
 									@click="showModal()"
 									aria-label="Close Modal"
-								/>
+								/>sh
 							</div>
 						</div>
 					</div>
@@ -146,6 +133,51 @@ export default {
 		</div>
 	</transition>
 </template>
+
+<script>
+import feather from 'feather-icons';
+import Button from './reusable/Button.vue';
+import axios from "axios";
+export default {
+	
+	props: ['showModal', 'modal', 'categories'],
+	components: { Button },
+	
+	mounted() {
+		feather.replace();
+	},
+	updated() {
+		feather.replace();
+	},
+	
+
+name: "form",	
+  data() {
+ return { form: {
+ name: "",
+ email: "",
+ project: "",
+ }
+ };
+
+ 
+ },
+ methods: {
+ async hire() {
+
+ console.log(this.form.name)
+ await axios.post("https://potmail.herokuapp.com/hire", {
+ name: this.form.name,
+ email: this.form.email,
+ project: this.form.project,
+ });
+ },
+ },
+};
+
+
+
+</script>
 
 <style scoped>
 .modal-body {

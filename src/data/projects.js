@@ -4,10 +4,11 @@
 const projects = [
 	{
 		id: 1,
-		title: 'Maverick Digital Store',
-		category: 'Web Application',
-		img: require('@/assets/images/web-project-2.jpg'),
-		link:'https://maverickdigital.netlify.app/'
+		title: 'Ani wellington',
+		category: 'Website',
+		img: require('@/assets/images/ani.png'),
+		link:'https://aniwellington.com'
+
 	},
 	{
 		id: 2,
@@ -18,10 +19,33 @@ const projects = [
 	},
 	{
 		id: 3,
-		title: 'Autonics',
+		title: 'SlcExperience',
 		category: 'Web Application',
-		img: require('@/assets/images/ui-project-1.jpg'),
-		link:''
+		img: require('@/assets/images/slc.png'),
+		link:'https://slcexperience.herokuapp.com/'
+	},
+	{
+		id: 4,
+		title: 'Yztot',
+		category: 'Web Application',
+		img: require('@/assets/images/yzt.png'),
+		link:'https://yztot.com'
+	},
+	{
+		
+		id: 5,
+		title: 'i2talk chat app',
+		category: 'Web Application',
+		img: require('@/assets/images/i2talk.png'),
+		link:'https://maverickdigital.netlify.app/'
+	},
+	
+	{
+		id: 6,
+		title: 'AutoLight control',
+		category: 'Embedded system',
+		img: require('@/assets/images/Arduino.png'),
+		link:'/assets/images/Arduino.png'
 	},
 	
 ];

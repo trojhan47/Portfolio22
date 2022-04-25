@@ -31,17 +31,22 @@ export default {
 			<h1
 				class="font-general-semibold text-3xl md:text-3xl xl:text-4xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase"
 			>
-				Hi, I am Bells
+				Hi, I am Tunji
 			</h1>
 			<p
 				class="font-general-medium mt-2 text-lg sm:text-xl  xl:text-2xl text-center sm:text-left leading-none text-gray-400"
 			>
-				A Front-end Developer & Cyber security Enthusiast
+				A Back-end developer and emerging Full-stack Engineer
+			</p>
+			<p
+				class="font-general-medium mt-2 text-lg sm:text-xl  xl:text-2xl text-center sm:text-left leading-none text-gray-400"
+			>
+				I create quality bespoke websites and digital products to help businesses and organizations thrive with technology
 			</p>
 			<div class="flex justify-center sm:block">
 				<a
-					download="Damilola-Resume.pdf"
-					href="/files/Damilola-Bells.pdf"
+					download="OyetunjiAtilade CV.pdf"
+					href="/files/OyetunjiAtilade CV.pdf"
 					class="flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
 					aria-label="Download Resume"
 				>
@@ -52,6 +57,23 @@ export default {
 					<span
 						class="text-sm sm:text-lg font-general-medium duration-100"
 						>Download CV</span
+					></a
+				>
+			</div>
+			<div class="flex justify-center sm:block">
+				<a
+					download="Oyetunji-Resume.pdf"
+					href="/files/OyetunjiREsume.pdf"
+					class="flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
+					aria-label="Get Resume"
+				>
+					<i
+						data-feather="arrow-down-circle"
+						class="ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6 duration-100"
+					></i>
+					<span
+						class="text-sm sm:text-lg font-general-medium duration-100"
+						>Get Resume</span
 					></a
 				>
 			</div>

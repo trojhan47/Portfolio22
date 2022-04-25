@@ -3,7 +3,7 @@ export default {
 	data: () => {
 		return {
 			copyrightDate: new Date().getFullYear(),
-			projectName: 'Damilola Portfolio',
+			projectName: 'Oyetunji Portfolio',
 			
 		};
 	},

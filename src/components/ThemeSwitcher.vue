@@ -8,7 +8,7 @@ export default {
 	},
 	methods: {
 		toggleTheme() {
-			const newTheme = this.theme === 'light' ? 'dark' : 'light';
+			const newTheme = this.theme === 'dark' ? 'light' : 'dark';
 			localStorage.setItem('theme', newTheme);
 			this.$emit('themeChanged', newTheme);
 			this.$router.go();

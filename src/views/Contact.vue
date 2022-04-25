@@ -15,17 +15,17 @@ export default {
 			contacts: [
 				{
 					id: 1,
-					name: 'Innonson Estate, Mabushi, Abuja',
+					name: 'Lugbe, Abuja',
 					icon: 'map-pin',
 				},
 				{
 					id: 2,
-					name: 'damilolabells@gmail.com',
+					name: 'atiladeoyetunji@gmail.com',
 					icon: 'mail',
 				},
 				{
 					id: 3,
-					name: '+234 706 235 4189',
+					name: '+234 8168004875',
 					icon: 'phone',
 				},
 			],
