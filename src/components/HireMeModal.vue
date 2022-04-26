@@ -41,7 +41,7 @@
 									class="max-w-xl m-4 text-left">
 									<div class="mt-0">
 										<input
-											class="w-full px-5 py-2 border-1 border-gray-200 dark:border-secondary-dark rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
+											class="w-full px-5 py-2 border-1 border-gray-200 dark:border-secondary-dark rounded-md text-md bg-ternary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
 											id="name"
 											name="name"
 											type="text"
@@ -53,7 +53,7 @@
 									</div>
 									<div class="mt-6">
 										<input
-											class="w-full px-5 py-2 border-1 border-gray-200 dark:border-secondary-dark rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
+											class="w-full px-5 py-2 border-1 border-gray-200 dark:border-secondary-dark rounded-md text-md bg-ternary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
 											id="email"
 											name="email"
 											type="text"
@@ -65,7 +65,7 @@
 									</div>
 									<div class="mt-6">
 										<select
-											class="w-full px-5 py-2 border-1 border-gray-200 dark:border-secondary-dark rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
+											class="w-full px-5 py-2 border-1 border-gray-200 dark:border-secondary-dark rounded-md text-md bg-ternary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
 											id="subject"
 											name="subject"
 											type="text"
@@ -83,7 +83,7 @@
 
 									<div class="mt-6">
 										<textarea
-											class="w-full px-5 py-2 border-1 border-gray-200 dark:border-secondary-dark rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
+											class="w-full px-5 py-2 border-1 border-gray-200 dark:border-secondary-dark rounded-md text-md bg-ternary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
 											id="project"
 											name="project"
 											v-model="form.project"
@@ -124,7 +124,7 @@
 									focus:ring-1 focus:ring-indigo-900 duration-500"
 									@click="showModal()"
 									aria-label="Close Modal"
-								/>sh
+								/>
 							</div>
 						</div>
 					</div>
