@@ -37,7 +37,7 @@
 								</button>
 							</div>
 							<div class="modal-body p-5 w-full h-full">
-								<form  @submit.prevent="hire"
+								<form ref="clear" @submit.prevent="hire"
 									class="max-w-xl m-4 text-left">
 									<div class="mt-0">
 										<input
@@ -171,9 +171,14 @@ name: "form",
  email: this.form.email,
  project: this.form.project,
  });
+ window.alert("sent successfully")
+ window.location.reload()
+//   this.$refs.clear.reset(); // This will clear that form
  },
  },
+ 
 };
+
 
 
 

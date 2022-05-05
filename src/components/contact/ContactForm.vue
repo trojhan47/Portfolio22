@@ -28,6 +28,9 @@ export default {
  subject: this.form.subject,
  message: this.form.message,
  });
+ window.alert("sent successfully")
+ window.location.reload()
+//   this.$refs.clear.reset(); // This will clear that form
  },
  
  },
@@ -45,7 +48,7 @@ export default {
 			>
 				Contact Form
 			</p>
-			<form @submit.prevent="hire" class="font-general-regular space-y-7">
+			<form  ref="clear" @submit.prevent="hire" class="font-general-regular space-y-7">
 				<div>
 					<label
 						class="block text-lg text-primary-dark dark:text-primary-light mb-2"
