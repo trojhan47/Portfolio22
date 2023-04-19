@@ -10,20 +10,50 @@ const projects = [
 		link:'https://aniwellington.com'
 
 	},
+	
 	{
 		id: 2,
+		title: 'Aqa Properties',
+		category: 'Website',
+		img: require('@/assets/images/aqa.png'),
+		link:'https://aqaproperties.ae/'
+	},
+	{
+		id: 3,
+		title: 'Vicion',
+		category: 'Website',
+		img: require('@/assets/images/vicion.png'),
+		link:'https://vicionconsulting.com/'
+	},
+	{
+		id: 10,
+		title: 'goButter',
+		category: 'Web Application',
+		img: require('@/assets/images/goButter.png'),
+		link:'https://gobutter.xyz/'
+	},
+	{
+		id: 7,
+		title: 'Daristele',
+		category: 'Website',
+		img: require('@/assets/images/daristele.png'),
+		link:'https://daristele.com/'
+	},
+	{
+		id: 9,
+		title: 'Centrum Finance',
+		category: 'Website',
+		img: require('@/assets/images/centrum.png'),
+		link:'https://centrumfinanceltd.com/'
+	},
+	{
+		id: 5,
 		title: 'Nel',
 		category: 'Web Application',
 		img: require('@/assets/images/mobile-project-2.jpg'),
 		link:'http://Nel2.herokuapp.com'
 	},
-	{
-		id: 3,
-		title: 'SlcExperience',
-		category: 'Web Application',
-		img: require('@/assets/images/slc.png'),
-		link:'https://slcexperience.herokuapp.com/'
-	},
+	
 	{
 		id: 4,
 		title: 'Yztot',
@@ -31,17 +61,10 @@ const projects = [
 		img: require('@/assets/images/yzt.png'),
 		link:'https://yztot.com'
 	},
-	{
-		
-		id: 5,
-		title: 'i2talk chat app',
-		category: 'Web Application',
-		img: require('@/assets/images/i2talk.png'),
-		link:'https://maverickdigital.netlify.app/'
-	},
 	
+
 	{
-		id: 6,
+		id: 8,
 		title: 'AutoLight control',
 		category: 'Embedded system',
 		img: require('@/assets/images/Arduino.png'),

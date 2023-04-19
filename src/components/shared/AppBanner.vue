@@ -36,7 +36,7 @@ export default {
 			<p
 				class="font-general-medium mt-2 text-lg sm:text-xl  xl:text-2xl text-center sm:text-left leading-none text-gray-400"
 			>
-				A Back-end developer and emerging Full-stack Engineer
+				A Full-stack Engineer
 			</p>
 			<p
 				class="font-general-medium mt-2 text-lg sm:text-xl  xl:text-2xl text-center sm:text-left leading-none text-gray-400"
