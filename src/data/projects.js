@@ -48,10 +48,10 @@ const projects = [
 	},
 	{
 		id: 5,
-		title: 'Nel',
-		category: 'Web Application',
-		img: require('@/assets/images/mobile-project-2.jpg'),
-		link:'http://Nel2.herokuapp.com'
+		title: 'Msl Global',
+		category: 'Website',
+		img: require('@/assets/images/msl.png'),
+		link:'https://mslglobal.org/'
 	},
 	
 	{
