@@ -53,6 +53,13 @@ const projects = [
 		img: require('@/assets/images/msl.png'),
 		link:'https://mslglobal.org/'
 	},
+	{
+		id: 11,
+		title: 'Etalite Limited',
+		category: 'Website',
+		img: require('@/assets/images/etalite.png'),
+		link:'https://etalitelimited.com/'
+	},
 	
 	{
 		id: 4,
