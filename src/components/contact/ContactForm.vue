@@ -22,7 +22,7 @@ export default {
  async hire() {
 
  console.log(this.form)
- await axios.post("https://potmail.herokuapp.com/mail", {
+ await axios.post("https://api.gobutter.xyz/api/social/contact", {
  name: this.form.name,
  email: this.form.email,
  subject: this.form.subject,
