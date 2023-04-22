@@ -75,7 +75,7 @@ export default {
 		<!-- About profile image -->
 		<div class="w-full sm:w-1/4 mb-7 sm:mb-0">
 			<img
-				src="@/assets/images/profile/1.png"
+				src="@/assets/images/profile/profile.jpeg"
 				class="rounded-xl  w-96"
 				alt="Oyetunji Atilade"
 			/>
