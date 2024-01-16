@@ -79,7 +79,7 @@ export default {
 				<counter
 					ref="counter"
 					:startAmount="0"
-					:endAmount="7"
+					:endAmount="11"
 					:duration="1"
 					:autoinit="true"
 					class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
