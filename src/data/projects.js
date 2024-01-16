@@ -4,33 +4,37 @@
 const projects = [
 	{
 		id: 1,
-		title: 'Ani wellington',
-		category: 'Website',
-		img: require('@/assets/images/ani.png'),
-		link:'https://aniwellington.com'
+		title: 'MenufinderAfrica',
+		category: 'Application',
+		img: require('@/assets/images/menufinder.png'),
+		link:'https://vicionconsulting.com/'
+	},
+
+	{
+		id: 11,
+		title: 'Bookishmate',
+		category: 'Web App',
+		img: require('@/assets/images/bookishmate.png'),
+		link: 'https://www.bookishmate.com/'
+		
 
 	},
 	
 	{
-		id: 2,
-		title: 'Aqa Properties',
+		id: 9,
+		title: 'Centrum Finance',
 		category: 'Website',
-		img: require('@/assets/images/aqa.png'),
-		link:'https://aqaproperties.ae/'
-	},
+		img: require('@/assets/images/centrum.png'),
+		link:'https://centrumfinanceltd.com/'
+			},
+	
 	{
-		id: 3,
-		title: 'Vicion',
-		category: 'Website',
-		img: require('@/assets/images/vicion.png'),
-		link:'https://vicionconsulting.com/'
-	},
-	{
-		id: 10,
-		title: 'goButter',
+		id: 4,
+		title: 'Getly',
 		category: 'Web Application',
-		img: require('@/assets/images/goButter.png'),
-		link:'https://gobutter.xyz/'
+		img: require('@/assets/images/getly.png'),
+		link:'https://getly.app/'
+		
 	},
 	{
 		id: 7,
@@ -40,26 +44,40 @@ const projects = [
 		link:'https://daristele.com/'
 	},
 	{
-		id: 9,
-		title: 'Centrum Finance',
+		id: 2,
+		title: 'Aqa Properties',
 		category: 'Website',
-		img: require('@/assets/images/centrum.png'),
-		link:'https://centrumfinanceltd.com/'
+		img: require('@/assets/images/aqa.png'),
+		link:'https://aqaproperties.ae/'
 	},
 	{
 		id: 5,
-		title: 'Nel',
-		category: 'Web Application',
-		img: require('@/assets/images/mobile-project-2.jpg'),
-		link:'http://Nel2.herokuapp.com'
+		title: 'Msl Global',
+		category: 'Website',
+		img: require('@/assets/images/msl.png'),
+		link:'https://mslglobal.org/'
+	},
+	{
+		id: 3,
+		title: 'Ani wellington',
+		category: 'Website',
+		img: require('@/assets/images/ani.png'),
+		link:'https://aniwellington.com'
 	},
 	
 	{
 		id: 4,
-		title: 'Yztot',
+		title: 'Varse',
 		category: 'Web Application',
-		img: require('@/assets/images/yzt.png'),
-		link:'https://yztot.com'
+		img: require('@/assets/images/varse.png'),
+		link:'https://frontend-varse.vercel.app/'
+	},
+	{
+		id: 10,
+		title: 'goButter',
+		category: 'Web Application',
+		img: require('@/assets/images/goButter.png'),
+		link:'https://gobutter.xyz/'
 	},
 	
 

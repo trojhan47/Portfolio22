@@ -26,10 +26,9 @@ export default {
 				<counter
 					ref="counter"
 					:startAmount="0"
-					:endAmount="4"
+					:endAmount="5"
 					:duration="1"
 					:autoinit="true"
-					@finished="alert(`Counting finished!`)"
 					class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
 					aria-label="About Status Counter"
 				/>
@@ -49,7 +48,6 @@ export default {
 					:duration="1"
 					suffix="k+"
 					:autoinit="true"
-					@finished="alert(`Counting finished!`)"
 					class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
 				/>
 				<span
@@ -63,11 +61,10 @@ export default {
 				<counter
 					ref="counter"
 					:startAmount="0"
-					:endAmount="80"
-					:duration="2"
+					:endAmount="98"
+					:duration="1"
 					suffix="%"
 					:autoinit="true"
-					@finished="alert(`Counting finished!`)"
 					class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
 				/>
 				<span
@@ -85,7 +82,6 @@ export default {
 					:endAmount="7"
 					:duration="1"
 					:autoinit="true"
-					@finished="alert(`Counting finished!`)"
 					class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
 				/>
 				<span

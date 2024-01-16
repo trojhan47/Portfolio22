@@ -27,11 +27,11 @@ export default {
 		class="flex flex-col sm:justify-between items-center sm:flex-row mt-12 sm:mt-10"
 	>
 		<!-- Banner left contents -->
-		<div class="w-full md:w-1/3 text-left">
+		<div class="w-full md:w-1.5/3 text-left">
 			<h1
 				class="font-general-semibold text-3xl md:text-3xl xl:text-4xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase"
 			>
-				Hi, I am Tunji
+				Hi, I am Atilade
 			</h1>
 			<p
 				class="font-general-medium mt-2 text-lg sm:text-xl  xl:text-2xl text-center sm:text-left leading-none text-gray-400"
@@ -41,12 +41,16 @@ export default {
 			<p
 				class="font-general-medium mt-2 text-lg sm:text-xl  xl:text-2xl text-center sm:text-left leading-none text-gray-400"
 			>
-				I create quality bespoke websites and digital products to help businesses and organizations thrive with technology
+				
+			I am a highly motivated and results-driven tech enthusiast with a robust technical background, 
+			excelling in Backend Engineering, Frontend Support, and ICT roles. My expertise encompasses web development, 
+			IT support, Backend Development, and API/web application documentation and testing. 
+			
 			</p>
 			<div class="flex justify-center sm:block">
 				<a
-					download="OyetunjiAtilade CV.pdf"
-					href="/files/OyetunjiAtilade CV.pdf"
+					download="OyetunjiCV.pdf"
+					href="/files/Oyetunji.pdf"
 					class="flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
 					aria-label="Download Resume"
 				>
@@ -80,7 +84,7 @@ export default {
 		</div>
 
 		<!-- Banner right illustration -->
-		<div class="w-full md:w-2/3 text-right float-right">
+		<div class="w-full md:w-1.5/3 text-right float-right">
 			<img
 				v-if="theme === 'light'"
 				src="@/assets/images/developer.svg"

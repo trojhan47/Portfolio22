@@ -10,13 +10,13 @@ export default {
 					id: 1,
 					name: 'GitHub',
 					icon: 'github',
-					url: 'https://github.com/Teehdev',
+					url: 'https://github.com/trojhan47',
 				},
 				{
 					id: 2,
 					name: 'Twitter',
 					icon: 'twitter',
-					url: 'https://twitter.com/dev_teehJ',
+					url: 'https://twitter.com/trojan__47',
 				},
 				{
 					id: 3,
@@ -28,7 +28,7 @@ export default {
 					id: 4,
 					name: 'Linkedin',
 					icon: 'linkedin',
-					url: 'https://www.linkedin.com/in/oyetunji-atilade-743312125/',
+					url: 'https://www.linkedin.com/in/oyetunji-atilade/',
 				},
 			],
 		};

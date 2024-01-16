@@ -166,7 +166,7 @@ name: "form",
  async hire() {
 
  console.log(this.form.name)
- await axios.post("https://potmail.herokuapp.com/hire", {
+ await axios.post("https://api.gobutter.xyz/api/social/hire", {
  name: this.form.name,
  email: this.form.email,
  project: this.form.project,
