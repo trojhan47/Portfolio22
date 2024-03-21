@@ -7,7 +7,7 @@ const projects = [
 		title: 'MenufinderAfrica',
 		category: 'Application',
 		img: require('@/assets/images/menufinder.png'),
-		link:'https://vicionconsulting.com/'
+		link:'https://menufinderafrica.com/'
 	},
 
 	{
